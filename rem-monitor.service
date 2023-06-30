@@ -1,0 +1,14 @@
+[Unit]
+Description=Remote monitoring service
+After=network.target
+
+[Service]
+ExecStart=
+Restart=always
+User=root
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=PYTHONUNBUFFERED=1
+WorkingDirectory=/home/daniel
+
+[Install]
+WantedBy=multi-user.target
