@@ -1,0 +1,19 @@
+{
+  "name": "monitor-api",
+  "version": "1.0.0",
+  "description": "Remote API that clients can connect to",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piperdaniel1/remote-monitoring-system.git"
+  },
+  "author": "daniel@danielpiper.dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piperdaniel1/remote-monitoring-system/issues"
+  },
+  "homepage": "https://github.com/piperdaniel1/remote-monitoring-system#readme"
+}
